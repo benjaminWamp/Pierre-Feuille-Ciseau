@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pierre-Feuille-Ciseau</title>
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="screen">
+      <div class="top">
+        <div class="choixbot">
+          <div class="imgbot" id="pierreIA">
+            <img src="./asset/Pierre.jpg" alt="Pierre" />
+          </div>
+          <div class="imgbot" id="feuilleIA">
+            <img src="./asset/Feuille.jpg" alt="Feuille" />
+          </div>
+          <div class="imgbot" id="ciseauxIA">
+            <img src="./asset/Ciseau.jpg" alt="Ciseau" />
+          </div>
+        </div>
+        <div>
+          <p>Le joueur adverse à <span id="score-ordinateur">0</span> point</p>
+        </div>
+      </div>
+      <div class="middle">
+        <div class="line">VS</div>
+      </div>
+      <div class="low">
+        <div>
+          <p>Vous avez <span id="score-joueur">0</span> point</p>
+        </div>
+        <div class="notice">
+          <p>
+            Pour jouer cliquer sur un des trois choix ci-dessous.
+          </p>
+        </div>
+        <div class="choix">
+          <div class="button btn-joueur" id="pierre">
+            <img src="./asset/Pierre.jpg" alt="Pierre" />
+          </div>
+          <div class="button btn-joueur" id="feuille">
+            <img src="./asset/Feuille.jpg" alt="Feuille" />
+          </div>
+          <div class="button btn-joueur" id="ciseaux">
+            <img src="./asset/Ciseau.jpg" alt="Ciseau" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./JS/index.js"></script>
+  </body>
+</html>
